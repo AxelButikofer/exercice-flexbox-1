@@ -45,3 +45,31 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+.section {
+  margin: 40px;
+}
+
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+.section-5 {
+  background: var(--green);
+  color: #ffefef;
+  font-family: Playfair Display;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.263px;
+}
+
+.box {
+  background: #264653;
+  margin: 20px 0;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: space-around;
+}
